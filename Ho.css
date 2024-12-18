@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.topnav {
+  background-color: #b14848;
+  overflow: hidden;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  }
+.topnav a{
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block; 
+  margin-right: 25px;
+  margin-top: 15px;
+}
+.topnav a:hover {
+  background-color: rgb(221, 214, 150) ;
+  font-size: 16px;
+  text-align: center;
+}
+.halfpage {
+  background: url("rizal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+  position: relative;
+}
+
+.center-content {
+ 
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;     
+  position: absolute;      
+  top: 50%;                
+  left: 50%;               
+  transform: translate(-50%, -50%); 
+  color: white; 
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+  text-align: center;
+}
+.rizal{
+  font-size: 45px;
+  font-family: sans-serif;
+}
+.rizal:hover{
+  font-size: 60px;
+  text-align: center;
+}
+.content{
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.content:hover{
+  font-size: 45px;
+}
+
